@@ -9,10 +9,10 @@
 }
 
 .body {
-  width: 50%;
+  width: 60%;
 }
 
-hr .break {
+.body .break {
   width: 95%;
   margin: 0 auto;
   color: #d3d3d3f1;
@@ -72,10 +72,113 @@ hr .break {
 /* NAV END */
 
 /* Content Start */
-.body .top .content table {
+.body .content .top table {
   width: 100%;
 }
 
-.body .top .content table input {
+.body .content .top table input {
   width: 100%;
 }
+
+.body .content .medium {
+  border: 1px solid #000000;
+}
+
+.body .content .medium .top {
+  border: 1px solid #000000;
+  background-color: #fafafa;
+  padding: 1px;
+  margin: 3px;
+}
+
+.body .content .medium .top input[type="button"] {
+  border-radius: 50px;
+}
+
+.body .content .medium .top label {
+  font-size: 16px;
+  color: #5091b9;
+}
+
+.body .content .medium .top select {
+  border: 0px;
+  background-color: transparent;
+}
+
+.body .content .medium .center {
+  font-size: 14px;
+}
+
+.body .content .medium .center .products {
+  text-align: center;
+}
+
+.body .content .medium .center table thead {
+  color: #3c6c8a;
+}
+
+.body .content .medium .center table tbody tr td {
+  margin: 5px;
+  padding: 5px;
+}
+
+.body .content .medium .center table tbody .product_name {
+  color: #5091b9;
+}
+
+.body .content .medium .center table tbody .in_break {
+  width: 98%;
+  margin: 0 auto;
+  color: #d3d3d3f1;
+  border: 1px dashed #000000;
+}
+
+.body .content .medium .center .in_break {
+  width: 98%;
+  margin: 0 auto;
+  color: #d3d3d3f1;
+  border: 1px dashed #000000;
+}
+
+.body .content .medium .center .total {
+  text-align: center;
+  width: 100%;
+}
+
+.body .content .bottom {
+  margin: 5px;
+}
+
+.body .content .bottom .shipping {
+  width: 100%;
+}
+
+.body .content .bottom .shipping tbody tr {
+  margin: 10px;
+  padding: 10px;
+}
+/* Content END */
+
+/* Footer START */
+.body .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  margin: 10px;
+}
+
+.body .footer .left {
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body .footer .left .arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body .footer .right .buttons button {
+  width: 90px;
+}
+/* Footer ENF */
