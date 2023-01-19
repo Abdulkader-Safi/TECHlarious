@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TECHLarious</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="body">
+        <!-- NAV START -->
+        <div class="nav">
+          <div class="top">
+            <div class="left">
+              <select name="Record" id="Record" size="1">
+                <option value="record" selected>Record</option>
+                <!-- <option value="record">Record</option>
+            <option value="record">Record</option>
+            <option value="record">Record</option> -->
+              </select>
+            </div>
+            <div class="right">
+              <label>View:</label>
+              <select name="review" id="Review" size="1">
+                <option value="review" selected>Review Orders</option>
+                <!-- <option value="review">Review Orders</option>
+              <option value="review">Review Orders</option>
+              <option value="review">Review Orders</option> -->
+              </select>
+            </div>
+          </div>
+          <div class="top2">
+            <div class="left">
+              <div class="arrows">
+                <a>+</a>
+                &nbsp;
+                <a>-</a>
+              </div>
+              &nbsp;-&nbsp;
+              <div class="text">indicates a required field</div>
+            </div>
+            <div class="right">
+              <div class="buttons">
+                <button>OK</button>
+                <button>Delete</button>
+                <button>Cancel</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- NAV END -->
+
+        <hr class="break" />
+
+        <!-- Content Start -->
+        <div class="content">
+          <div class="top">
+            <table>
+              <colgroup>
+                <col span="1" style="width: 20%" />
+                <col span="1" style="width: 20%" />
+                <col span="1" style="width: 10%" />
+                <col span="1" style="width: 20%" />
+                <col span="1" style="width: 30%" />
+              </colgroup>
+              <tbody>
+                <tr>
+                  <td>Customer:</td>
+                  <td><input type="text" value="Bon app" /></td>
+                  <td></td>
+                  <td>Address:</td>
+                  <td><input type="text" value="12, rue des Boucher's" /></td>
+                </tr>
+                <tr>
+                  <td>Employee:</td>
+                  <td><input type="text" value="Peacock" /></td>
+                  <td></td>
+                  <td>City:</td>
+                  <td><input type="text" value="Marseille" /></td>
+                </tr>
+                <tr>
+                  <td>Oder Date:</td>
+                  <td><input type="date" /></td>
+                  <td></td>
+                  <td>d</td>
+                  <td><input type="text" value="" /></td>
+                </tr>
+                <tr>
+                  <td>Required Date:</td>
+                  <td><input type="date" /></td>
+                  <td></td>
+                  <td>Region:</td>
+                  <td><input type="text" value="13008" /></td>
+                </tr>
+                <tr>
+                  <td>Shipped Date:</td>
+                  <td><input type="date" /></td>
+                  <td></td>
+                  <td>Ship Country:</td>
+                  <td><input type="text" value="France" /></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="medium"></div>
+        </div>
+        <!-- Content END -->
+      </div>
+    </div>
+  </body>
+</html>
