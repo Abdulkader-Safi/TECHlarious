@@ -4,7 +4,7 @@ let BattleLog = document.getElementById("BattleLog");
 let Logs = document.getElementById("logs");
 let GameOver = document.getElementById("GameOver");
 let Status = document.getElementById("Status");
-let buttons = document.querySelectorAll("button");
+let Buttons = document.getElementById("buttons");
 
 let monsterHeath = "100";
 let yourHeath = "100";
@@ -97,11 +97,8 @@ const logMove = (isPlayer, move, value) => {
 let gameOver = (msg) => {
   GameOver.style.display = "block";
   BattleLog.style.display = "none";
+  Buttons.style.display = "none";
   Status.innerHTML = msg;
-
-  for (let i = 0; i < buttons.length - 1; i++) {
-    buttons[i].disabled = true;
-  }
 };
 
 let playerAttack = (min, max) => {

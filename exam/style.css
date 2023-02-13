@@ -75,7 +75,7 @@ button {
   color: white;
 }
 
-.buttons {
+#buttons {
   display: flex;
   justify-content: center;
   align-items: center;
